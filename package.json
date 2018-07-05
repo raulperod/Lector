@@ -1,0 +1,43 @@
+{
+  "name": "lector",
+  "version": "1.0.0",
+  "description": "Biblioteca y lector de comics, mangas, etc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulperod/Lector.git"
+  },
+  "keywords": [
+    "Node",
+    "express",
+    "react",
+    "mongodb"
+  ],
+  "author": {
+    "name": "raulperod",
+    "email": "raulperod@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raulperod/Lector/issues"
+  },
+  "homepage": "https://github.com/raulperod/Lector#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.1",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
